@@ -1,0 +1,76 @@
+*{
+    overflow: hidden;
+}
+.main{
+    height: 100vh;
+    background: radial-gradient(#bf3e17, #171111);
+}
+.navbar{
+    padding: 10px 60px;
+}
+.navbar-brand{
+    color: #fff;
+    font-weight: bold;
+}
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+    margin: 10px;
+    
+}
+form .btn{
+    height: 40px;
+    width: 120px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+.info{
+    margin-top: 5rem;
+    text-align: center;
+}
+.info h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.info p{
+    color: #fff;
+    margin-top: 15px;
+}
+.info img{
+    margin-top: 10px;
+}
+.info .bi-arrow-left-circle{
+    float: left;
+    color: #fff;
+    font-size: 40px;
+}
+.info .bi-arrow-right-circle{
+    float: right;
+    color: #fff;
+    font-size: 40px;
+}
+.navbar-toggler{
+    background: #fff;
+
+}
+.navbar-toggler-icon{
+    color: #000;
+}
+@media (max-width:991px) {
+    .navbar{
+        padding: 10px 20px;
+    }
+    .collapse{
+        margin-top: 20px;
+        text-align: center;
+    }
+    form button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
